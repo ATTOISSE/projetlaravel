@@ -1,0 +1,10 @@
+WHERENUMBER : pour verifier si la valeur passer en parametre existe.
+FACTORY : il permet de generer des donner aléatore
+php artisan m:factory nomFactory --model=nom_du_model
+php artisan tinker : permet d'ecrire du code php dans la console
+Model::all() : il sert à recuperer tous les données qui se trouvent dans la table Model
+Model::OrderBy()-->take(nombre_element)-->get();
+Model::create()
+Model::update()
+Model::delete/destory
+Model::where
